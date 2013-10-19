@@ -1,0 +1,32 @@
+# Project Gogi
+
+## NAMJA PROJECT
+
+## DIRECTORY ADDED
+./mockup/
+
+## IMPORTANT NOTES
+* This mockup includes 3 pages:
+    ./mockup/index.html
+    ./mockup/index_loggedin.html
+    ./mockup/index_manage_group.html
+
+* index.html includes features such as:
+    - Calendar view displays each person who attended each day's meetings.
+    - Each days can be clicked, and a subview will appear to list details about the attendance.
+    - All buttons on the Calendar are interactive, and so is "Login" button.
+
+* index-loggedin.html includes features such as:
+    - The basic functionality is same as index.html.
+    - The subview now includes "Edit" button, which admins can click and modify the attendance of each members.
+    - A new button "Manage Group" will eventually redirect the page to Manage Group page.
+
+* index_manage_group.html includes features such as:
+    - Admins can make changes to their profile information, such as name, group name, and etc.
+    - Admins can also make changes to the group member information in "Manage My Group" section tab.
+    - In Manage My Group section tab, admins can add/modify the members in the group.
+    - "View Calendar" button substitutes what was previously "Manage Group" button.
+
+## OMITTED FEATURES
+ * Admins will not be able to make changes to the attendance statuses of the group members within "Manage Group" tab.
+ 	- The feature was redundant as the calendar view already provides a simpler way to accomplish checking attendance.
